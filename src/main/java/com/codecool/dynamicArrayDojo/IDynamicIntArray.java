@@ -2,8 +2,8 @@ package com.codecool.dynamicArrayDojo;
 
 public interface IDynamicIntArray {
 
-    boolean add(int num);
-    boolean remove(int num);
-    boolean insert(int index, int num);
+    void add(int num);
+    void remove(int num);
+    void insert(int index, int num);
 
 }
